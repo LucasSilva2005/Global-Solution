@@ -1,0 +1,85 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+ --fonte-pricipal: 'Montserrat';
+ --fonte-secundaria: 'Arial, Helvetica, sans-serif';
+ --cor-header: #87ceeb;
+ --cor-texto: #000000;
+ --cor-fundo: #ADD8E6;
+}
+body{
+ background-color: var(--cor-fundo);
+}
+
+.apresentacao__principal {
+ background-color: var(--cor-header);
+ height: 12vh;
+ width: 100%;
+}
+
+.apresentacao__navegacao {
+ display: flex;
+ justify-content: flex-end;
+ gap: 20px;
+}
+.apresentacao__links__navbar {
+ position: relative;
+ top: 25px;
+ right: 10px;
+ font-family: var(--fonte-pricipal);
+ font-size: 20px;
+ text-decoration: none;
+ color: var(--cor-texto);
+}
+
+.logo {
+ max-width: 100%;
+ height: 15vh;
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100px;
+ height: auto;
+}
+
+.paragrafo {
+ margin-top: 6%;
+ font-family: var(--fonte-pricipal);
+ text-align: center;
+ font-size: 50px;
+}
+
+.subparagrafo {
+ font-family: var(--fonte-secundaria);
+ margin: 1%;
+ text-align: center;
+}
+.botao__cadastro {
+ text-align: center;
+ margin: 20px auto;
+ display: block;
+ width: 10%;
+ padding: 10px;
+ justify-content: center;
+ text-decoration: none;
+ font-size: 24px;
+ border-radius: 10%;
+ font-family: var(--fonte-pricipal);
+ color: var(--cor-texto);
+ background-color: var(--cor-header);
+}
+
+.tartaruga {
+ margin-left: 190px;
+ border-radius: 5%;
+ justify-content: center;
+ align-items: center;
+ width: 70%; 
+ height: auto; 
+ right: 100%;
+}
