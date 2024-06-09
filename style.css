@@ -234,3 +234,39 @@ body {
 .rodape__direita{
  padding: 3.5%;
 }
+
+/* Sobre nós*/
+
+.paragrafo__sobre{
+ font-size: 50px;
+ font-family: var(--fonte-pricipal);
+ font-weight: 600;
+ padding: 4% 0% 0% 4%;
+}
+
+.container{
+ gap: 2%;
+ display: flex;
+ width: 80%;
+ padding: 2% 2% 2% 2%;
+}
+
+.missao {
+ display: flex;
+ width: 250px;
+ height: 350px;
+ background-color: #ffffff;
+ border-radius: 10%;
+}
+
+.texto__missao {
+ padding: 10px;
+ font-size: 18px; 
+}
+
+.imagem__missao {
+ padding: 10% 40% 10% 10%;
+ padding-left: -00%;
+ width: 80%;
+ height: 50%;
+}
