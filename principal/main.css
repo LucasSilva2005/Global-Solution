@@ -1,0 +1,149 @@
+.container__paragrafos {
+ width: 50%; /* Define a largura do contêiner pai */
+ margin: 0 auto; /* Centraliza o contêiner na página */
+}
+
+.paragrafo {
+ margin-top: 6%;
+ font-family: var(--fonte-pricipal);
+ text-align: center;
+ font-size: 50px;
+}
+
+.subparagrafo {
+ justify-content: center;
+ font-family: var(--fonte-secundaria);
+ text-align: center;
+ font-size: 26px;
+ padding: 5px;
+}
+
+.botao__cadastro {
+ text-align: center;
+ margin: 20px auto;
+ display: block;
+ width: 28%;
+ height: auto;
+ padding: 10px;
+ justify-content: center;
+ text-decoration: none;
+ font-size: 24px;
+ border-radius: 10%;
+ font-family: var(--fonte-pricipal);
+ color: var(--cor-texto);
+ background-color: var(--cor-header);
+}
+
+.tartaruga {
+ margin-left: 190px;
+ border-radius: 5%;
+ justify-content: center;
+ align-items: center;
+ width: 70%;
+ height: auto;
+ right: 100%;
+}
+
+.paragrafo__opinioes {
+ margin-top: 6%;
+ text-align: center;
+ font-family: var(--fonte-pricipal);
+ font-size: 50px;
+}
+
+.subparagrafo__opinioes {
+ text-align: center;
+ font-family: var(--fonte-pricipal);
+ font-size: 30px;
+}
+
+.pricipal__opiniao {
+ gap: 2%;
+ display: flex;
+ margin: 10% 10% 2% 10%;
+ width: 80%;
+}
+
+.Opiniao1 {
+ width: 350px;
+ height: 250px;
+ background-color: #ffffff;
+ border-radius: 10%;
+}
+
+.paragrafo__opiniao1 {
+ padding: 4%;
+ font-size: 15px;
+}
+
+.imagem__opiniao1 {
+ float: left;
+ padding-left: 4%;
+}
+
+.nome__opiniao1 {
+ padding-left: 2%;
+ overflow: hidden;
+}
+
+.profissao__opiniao1 {
+ padding-left: 2%;
+ overflow: hidden;
+ opacity: 0.5;
+}
+
+.Opiniao2 {
+ width: 350px;
+ height: 250px;
+ background-color: #ffffff;
+ border-radius: 10%;
+}
+
+.paragrafo__opiniao2 {
+ padding: 4%;
+ font-size: 15px;
+}
+
+.imagem__opiniao2 {
+ float: left;
+ padding-left: 4%;
+}
+
+.nome__opiniao2 {
+ padding-left: 2%;
+ overflow: hidden;
+}
+
+.profissao__opiniao2 {
+ padding-left: 2%;
+ overflow: hidden;
+ opacity: 0.5;
+}
+
+.Opiniao3 {
+ width: 350px;
+ height: 250px;
+ background-color: #ffffff;
+ border-radius: 10%;
+}
+
+.paragrafo__opiniao3 {
+ padding: 4%;
+ font-size: 15px;
+}
+
+.imagem__opiniao3 {
+ float: left;
+ padding-left: 4%;
+}
+
+.nome__opiniao3 {
+ padding-left: 2%;
+ overflow: hidden;
+}
+
+.profissao__opiniao3 {
+ padding-left: 2%;
+ overflow: hidden;
+ opacity: 0.5;
+}
